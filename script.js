@@ -22,4 +22,13 @@ document.addEventListener("DOMContentLoaded", function () {
   // Add event listeners to arrow buttons
   prevButton.addEventListener("click", prevSlide);
   nextButton.addEventListener("click", nextSlide);
+
+  // Keyboard navigation
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "ArrowLeft") {
+      prevSlide();
+    } else if (event.key === "ArrowRight") {
+      nextSlide();
+    }
+  });
 });

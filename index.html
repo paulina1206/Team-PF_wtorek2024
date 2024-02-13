@@ -1,124 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Projekt HTML CSS 2023/2024</title>
-    <link
-      rel="stylesheet"
-      href="//use.fontawesome.com/releases/v5.0.7/css/all.css"
-    />
-    <link rel="stylesheet" href="/css/style.css" />
-    <script src="/script.js"></script>
-  </head>
-  <body>
-    <div id="container">
-      <header>
-        <section class="brand">
-          <a href="#">
-            <img src="https://picsum.photos/150/60" alt="logo" />
-          </a>
-        </section>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projekt HTML CSS 2023/2024</title>
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <script src="/script.js"></script>
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <section class="brand">
+        <a href="#">
+          <img src="https://picsum.photos/150/60" alt="logo" />
+        </a>
+      </section>
+      <nav>
+        <ul>
+          <li>
+            <div class="dropdown">
+              <a href="#">Home</a>
+              <ul class="dropdownList">
+                <li>O mnie</li>
+                <li>Ulubione potrawy</li>
+                <li>Hobby</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">Galeria</a>
+          </li>
+          <li>
+            <a href="#">Kariera</a>
+          </li>
+          <li>
+            <a href="#">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+      </header>
+		  <section id="slider" class="slider" aria-label="Image Slider">
+        <div id="sliderImg" class="sliderImg">
+          <img
+            src="assets/spring-bird.jpg"
+            alt="A small bird, sitting in tree"
+            class="slide"
+          />
+          <img
+            src="assets/spring-flower.jpg"
+            alt="A spring flowers"
+            class="slide"
+          />
+          <img src="assets/spring_flowers.jpg" alt="Snowdrops" class="slide" />
+          <img
+            src="assets/spring-gif-19.gif"
+            alt="Cheery pik bloom"
+            class="slide"
+          />
+        </div>
+        <button class="prev" id="prev" aria-label="Previous Slide">
+          &#10094;
+        </button>
+        <button class="next" id="next" aria-label="Next Slide">&#10095;</button>
+      </section>
+      
+			<main>
+				<article>
+        <h1>Ciekawostki o wiośnie</h1>
+        <img src="https://cdn.pixabay.com/photo/2021/05/22/17/06/hybrid-6274156_1280.jpg" alt="Dog with flowers" />
+        <div>
+          <ol>
+            <li>Słowo „wiosna” pochodzi od prasłowiańskiego wyrazu „vesna” („ves” oznacza wesoły). Vesna była
+              starosłowiańską boginią, symbolizującą odrodzenie.
+            </li>
+            <li>Wiosna jest symbolem odrodzenia i nowego życia.</li>
+            <li>Wyróżnia się kilka rodzajów wiosny, między innymi wiosnę astronomiczna, kalendarzową, meteorologiczną i
+              termiczną.</li>
+            <li>Rośliny zwiastujące wiosnę to przebiśniegi, krokusy, fiołki, tulipany, narcyzy, żonkile, hiacynty i
+              wierzba.</li>
+            <li>Zmiana czasu na letni odbywa się zawsze w ostatnią niedzielę marca.</li>
+            <li>Najzimniejszy początek wiosny miał miejsce w 1942 roku. Termometry pokazywały wówczas 24 st. C na
+              minusie.</li>
+            <li>Najcieplejszy pierwszy dzień wiosny zanotowano w 1974 r., gdy za oknem było 25 st. C.</li>
+            <li>Węgierscy naukowcy z Uniwersytetu Semmelweisa w Budapeszcie wykazali, że osoby urodzone wiosną to
+              życiowi
+              optymiści i ludzie sukcesu, a na dodatek wykazują się niezwykłą kreatywnością.</li>
+            <li>Okres wiosenny jest szczególnie trudny dla alergików. W tym okresie zwiększa się stężenie pyłków roślin.
+            </li>       
+          </ol>
+          <p>źródło: https://www.national-geographic.pl/artykul/ciekawostki-o-wiosnie</p>
+        </div>
+      </article>
+			<aside>
+					<section class="widget">
+						<h4>O autorze:</h4>
+						<img src="/assets/steve.jpg" alt="Authors photo" />
+						<h2>Steve Jobs</h2>
+						<p>
+							was born in San Francisco in 1955 and adopted shortly afterwards.
+							He attended Reed College in 1972 before withdrawing that same
+							year. In 1974, he traveled through India, seeking enlightenment
+							before later studying Zen Buddhism. He and Wozniak co-founded
+							Apple in 1976 to further develop and sell Wozniak's Apple I
+							personal computer. Together, the duo gained fame and wealth a year
+							later with production and sale of the Apple II, one of the first
+							highly successful mass-produced microcomputers. Jobs saw the
+							commercial potential of the Xerox Alto in 1979, which was
+							mouse-driven and had a graphical user interface (GUI). This led to
+							the development of the unsuccessful Apple Lisa in 1983, followed
+							by the breakthrough Macintosh in 1984, the first mass-produced
+							computer with a GUI. The Macintosh introduced the desktop
+							publishing industry in 1985 with the addition of the Apple
+							LaserWriter, the first laser printer to feature vector graphics.
+						</p>
+					</section>
+	
+				</aside>
+			</main>
+    <footer class="footer">
+      <p>
+        Copyright &copy; by WSB students 2023/2024 Programista Frontend /WSB
+      </p>
+      <div class="footer-menu">
         <nav>
           <ul>
-            <li>
-              <div class="dropdown">
-                <a href="#">Home</a>
-                <ul class="dropdownList">
-                  <li>O mnie</li>
-                  <li>Ulubione potrawy</li>
-                  <li>Hobby</li>
-                </ul>
-              </div>
-            </li>
-            <li>
-              <a href="#">Galeria</a>
-            </li>
-            <li>
-              <a href="#">Kariera</a>
-            </li>
-            <li>
-              <a href="#">Kontakt</a>
-            </li>
+            <li><a href="#">Polityka prywatności</a>
+            <li><a href="#">Kontakt</a></li>
           </ul>
         </nav>
-      </header>
-      <section id="slider" class="slider">
-        <div id="sliderImg" class="sliderImg">
-          <img src="assets/spring-bird.jpg" alt="Slide 1" class="slide" />
-          <img src="assets/spring-flower.jpg" alt="Slide 2" class="slide" />
-          <img src="assets/spring_flowers.jpg" alt="Slide 3" class="slide" />
-        </div>
-        <button class="prev" id="prev">&#10094;</button>
-        <button class="next" id="next">&#10095;</button>
-      </section>
-      <main>
-        <article>
-          <h1>Lorem ipsum dolor sit.</h1>
-          <img
-            src="https://unsplash.it/700/300?image=870"
-            alt="Image for article"
-          />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Perferendis, temporibus nulla expedita alias consequatur natus
-            excepturi velit facere nemo repudiandae laborum, quasi voluptatum
-            delectus non ipsam qui tempore placeat amet. Veritatis alias maiores
-            exercitationem laborum, illum numquam, in quasi eveniet ipsa, qui
-            eos minima architecto officia temporibus ipsam mollitia nemo
-            expedita. Laborum qui porro optio eos distinctio soluta nobis
-            suscipit! Dolor libero provident, praesentium eius sapiente nulla
-            delectus odio incidunt amet sit consectetur ex quam, quas sequi et
-            impedit. Iusto sit voluptatum cupiditate in pariatur repudiandae
-            sapiente quam accusamus quae???
-          </p>
-        </article>
-        <aside>
-          <section class="widget">
-            <h2>O autorze:</h2>
-            <img
-              src="https://unsplash.it/100/100?image=1062"
-              alt="Authors photo"
-            />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              voluptatibus eum inventore exercitationem optio vero dolore
-              commodi ipsum et possimus! Ex, eius perspiciatis! Perspiciatis at
-              neque repellat, nisi atque harum? Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Rerum laborum consectetur
-              necessitatibus veritatis reprehenderit aut totam placeat sit et
-              enim, sed doloribus a mollitia molestias amet, quis deserunt
-              commodi adipisci?
-            </p>
-          </section>
-          <section class="links">
-            <h3>Links:</h3>
-            <ul>
-              <li><a href="https://www.onet.pl" target="_blank">ONET</a></li>
-              <li><a href="https://www.wsb.pl" target="_blank">WSB</a></li>
-              <li>
-                <a href="https://www.wroclaw.pl" target="_blank">WROCŁAW.PL</a>
-              </li>
-            </ul>
-          </section>
-        </aside>
-      </main>
-
-      <footer>
-        <p>
-          Copyright &copy; by WSB students 2023/2024 Programista Frontend /WSB
-          students 2023/2024 Programista Frontend WSB students 2023/2024
-          Programista Frontend WSB students 2023/2024 Programista FrontendWSB
-          students 2023/2024 Programista Frontend WSB students 2023/2024
-          Programista FrontendWSB students 2023/2024 Programista FrontendWSB
-          students 2023/2024 Programista Frontend WSB students 2023/2024
-          Programista Frontend WSB students 2023/2024 Programista FrontendWSB
-          students 2023/2024 Programista FrontendWSB students 2023/2024
-          Programista Frontend WSB students 2023/2024 Programista FrontendWSB
-          students 2023/2024 Programista Frontend
-        </p>
-        <i class="fab fa-instagram"></i>
-      </footer>
-    </div>
-  </body>
+      </div>
+      <i class="fab fa-instagram"></i>
+    </footer>
+		</div>
+	</body>
 </html>

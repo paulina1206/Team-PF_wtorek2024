@@ -2,93 +2,101 @@
 
 /* General rules */
 @media screen and (max-width: 575.98px) {
-  /* rozmiar XS */
-  footer {
-    font-size: 12px;
-  }
+	/* rozmiar XS */
+	footer {
+		font-size: 12px;
+	}
 }
 
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
-  /* rozmiar S */
-  footer {
-    font-size: 14px;
-  }
+	/* rozmiar S */
+	footer {
+		font-size: 14px;
+	}
 }
 
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
-  /* rozmiar M */
-  footer {
-    font-size: 16px;
-  }
+	/* rozmiar M */
+	footer {
+		font-size: 16px;
+	}
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
-  /* rozmiar L */
-  footer {
-    font-size: 18px;
-  }
+	/* rozmiar L */
+	footer {
+		font-size: 18px;
+	}
 }
 
 @media screen and (min-width: 1200px) {
-  /* Rozmiar XL */
-  footer {
-    font-size: 20px;
-  }
+	/* Rozmiar XL */
+	footer {
+		font-size: 20px;
+	}
 }
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-size: 16px;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
 }
 
 #container {
-  margin: 0 auto;
-  width: 1000px;
-  border: 3px solid black;
+	margin: 0 auto;
+	width: 1000px;
+	border: 3px solid black;
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+	max-width: 100%;
+	height: auto;
 }
 
 /* Styling elements in listed order */
 
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 15px 20px 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 15px 20px 15px;
 }
 
+.footer {
+	display: flex;
+	align-items: center;
+}
+.footer-menu {
+	display: flex;
+	flex-direction: column;
+}
 /* brand*/
 
 .brand a,
 .brand img {
-  display: block;
+	display: block;
 }
 
 nav ul {
-  list-style-type: none;
+	list-style-type: none;
 }
 
 nav ul li {
-  display: inline-block;
+	display: inline-block;
 }
 
 nav ul li a {
   font-size: 18px;
-  color: black;
+  color: rgb(22, 21, 21);
   padding: 10px 15px;
   text-decoration: none;
 }
 
 .dropdown {
-  position: relative;
+	position: relative;
 }
 
 .dropdownList {
@@ -97,28 +105,28 @@ nav ul li a {
   padding: 0;
   margin: 0;
   width: 160px;
-  background-color: grey;
+  background-color: rgb(145, 172, 231);
   display: none;
   border-radius: 5px;
   z-index: 1;
 }
 
 .dropdownList li {
-  padding: 10px;
-  width: 100%;
-  height: 100%;
+	padding: 10px;
+	width: 100%;
+	height: 100%;
 }
 
 .dropdown a:focus + ul,
 .dropdown a:hover + ul,
 .dropdown ul:hover {
-  display: block;
-  cursor: pointer;
-  border-radius: 5px;
+	display: block;
+	cursor: pointer;
+	border-radius: 5px;
 }
 
 .dropdown ul li:hover {
-  background-color: orange;
+  background-color: rgb(155, 152, 147);
   border-radius: 5px;
 }
 
@@ -127,85 +135,90 @@ nav ul li a {
 
 nav ul li a:hover {
   color: white;
-  background-color: black;
+  background-color: rgb(167, 162, 162);
 }
 
 /* w3schools CSS pseudo-class */
 nav ul li:first-of-type a {
-  color: blue;
+	color: blue;
 }
 
 /* Slider */
 
 .slider {
-  position: relative;
-  width: 100%;
-  height: 500px;
-  margin: 0 auto;
-  overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 500px;
+	margin: 0 auto;
+	overflow: hidden;
 }
 
 .sliderImg {
-  display: flex;
+	display: flex;
 }
 
 .slide {
-  width: 100%;
-  flex-shrink: 0;
+	width: 100%;
+	flex-shrink: 0;
 }
 
 .prev,
 .next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  border: none;
-  cursor: pointer;
-  padding: 10px;
-  z-index: 1;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	z-index: 1;
 }
 
 .prev {
-  left: 0;
+	left: 0;
 }
 
 .next {
-  right: 0;
+	right: 0;
 }
 
 /* Main */
 
 main {
-  display: flex;
-  justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 article {
-  width: 70%;
-  background-color: rgba(36, 177, 53, 0.354);
-  padding: 30px;
+	width: 70%;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: rgba(141, 187, 99, 0.354);
+	padding: 30px;
 }
 
 article img {
-  width: 1700px;
-  padding: 20px;
+	width: 1700px;
+	padding: 20px;
 }
 
+aside h2, aside h4, aside p {
+  font-size: 14px;
+}
+  
 aside {
-  width: 30%;
-  padding: 20px;
-  background-color: rgba(104, 96, 219, 0.37);
-  border-left: 5px dotted black;
+	width: 30%;
+	padding: 20px;
+	background-color: rgba(104, 96, 219, 0.37);
+	border-left: 5px dotted black;
 }
 
 .widget {
-  padding-bottom: 50px;
+	padding-bottom: 50px;
 }
 
 .widget img {
-  float: left;
+  float: right;
   border: 5px solid blue;
   margin-right: 5px;
   width: 100px;
@@ -213,30 +226,31 @@ aside {
 }
 
 .links ul {
-  list-style-type: square;
+	list-style-type: square;
 }
 
 .links ul li {
-  padding-bottom: 15px;
+	padding-bottom: 15px;
 }
 
 footer p {
   text-align: center;
-  background-color: rgba(165, 42, 42, 0.295);
+  background-color: rgba(70, 201, 70, 0.651);
   padding: 50px;
   margin: 0;
+  font-style: italic;
 }
 
 /* @media rules */
 @media screen and (min-width: 576px) {
-  article {
-      font-size: 1rem;
-      font-size: bold;
-      background-color: green;
-  }
+	article {
+		font-size: 1rem;
+		font-size: bold;
+		background-color: green;
+	}
 
-  aside {
-      background-color: cyan;
-      font-size: 0.5rem;
-  }
+	aside {
+		background-color: cyan;
+		font-size: 0.5rem;
+	}
 }

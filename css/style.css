@@ -214,7 +214,7 @@ aside {
 }
 
 .widget img {
-  float: left;
+  float: right;
   border: 5px solid blue;
   margin-right: 5px;
   width: 100px;

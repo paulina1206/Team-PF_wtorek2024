@@ -81,10 +81,10 @@ nav ul li {
 }
 
 nav ul li a {
-	font-size: 18px;
-	color: black;
-	padding: 10px 15px;
-	text-decoration: none;
+  font-size: 18px;
+  color: rgb(22, 21, 21);
+  padding: 10px 15px;
+  text-decoration: none;
 }
 
 .dropdown {
@@ -92,15 +92,15 @@ nav ul li a {
 }
 
 .dropdownList {
-	position: absolute;
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-	width: 160px;
-	background-color: grey;
-	display: none;
-	border-radius: 5px;
-	z-index: 1;
+  position: absolute;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 160px;
+  background-color: rgb(145, 172, 231);
+  display: none;
+  border-radius: 5px;
+  z-index: 1;
 }
 
 .dropdownList li {
@@ -118,16 +118,16 @@ nav ul li a {
 }
 
 .dropdown ul li:hover {
-	background-color: orange;
-	border-radius: 5px;
+  background-color: rgb(155, 152, 147);
+  border-radius: 5px;
 }
 
 /* pseudoklasa CSS */
 /* najechanie myszką na menu */
 
 nav ul li a:hover {
-	color: white;
-	background-color: black;
+  color: white;
+  background-color: rgb(167, 162, 162);
 }
 
 /* w3schools CSS pseudo-class */

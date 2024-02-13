@@ -198,11 +198,15 @@ article p {
 	text-align: right;
 }
 
+aside h2, aside h4, aside p {
+  font-size: 14px;
+}
+  
 aside {
-	width: 30%;
-	padding: 20px;
-	background-color: rgba(104, 96, 219, 0.37);
-	border-left: 5px dotted black;
+  width: 30%;
+  padding: 20px;
+  background-color: rgba(104, 96, 219, 0.37);
+  border-left: 5px dotted black;
 }
 
 .widget {
@@ -210,11 +214,11 @@ aside {
 }
 
 .widget img {
-	float: left;
-	border: 5px solid blue;
-	margin-right: 5px;
-	width: 100px;
-	padding: 5px;
+  float: right;
+  border: 5px solid blue;
+  margin-right: 5px;
+  width: 100px;
+  padding: 5px;
 }
 
 .links ul {
@@ -234,20 +238,13 @@ footer p {
 
 /* @media rules */
 @media screen and (min-width: 576px) {
-	article {
-		font-size: 1rem;
-		font-size: bold;
-		font-family: Arial, Helvetica, sans-serif;
-		background-color: rgba(68, 69, 68, 0.354);
-	}
+  article {
+      font-size: 1rem;
+      font-size: bold;
+      background-color: green;
+  }
 
-	aside {
-		background-color: cyan;
-		font-size: 0.5rem;
-	}
-
-	article p {
-		font-size: 0.8rem;
-		text-align: right;
-	}
+  aside {
+      background-color: cyan;
+  }
 }

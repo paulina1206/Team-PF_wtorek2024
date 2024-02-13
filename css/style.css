@@ -82,7 +82,7 @@ nav ul li {
 
 nav ul li a {
   font-size: 18px;
-  color: black;
+  color: rgb(22, 21, 21);
   padding: 10px 15px;
   text-decoration: none;
 }
@@ -97,7 +97,7 @@ nav ul li a {
   padding: 0;
   margin: 0;
   width: 160px;
-  background-color: grey;
+  background-color: rgb(145, 172, 231);
   display: none;
   border-radius: 5px;
   z-index: 1;
@@ -118,7 +118,7 @@ nav ul li a {
 }
 
 .dropdown ul li:hover {
-  background-color: orange;
+  background-color: rgb(155, 152, 147);
   border-radius: 5px;
 }
 
@@ -127,7 +127,7 @@ nav ul li a {
 
 nav ul li a:hover {
   color: white;
-  background-color: black;
+  background-color: rgb(167, 162, 162);
 }
 
 /* w3schools CSS pseudo-class */
@@ -230,13 +230,13 @@ footer p {
 /* @media rules */
 @media screen and (min-width: 576px) {
   article {
-      font-size: 1rem;
-      font-size: bold;
-      background-color: green;
+    font-size: 1rem;
+    font-size: bold;
+    background-color: green;
   }
 
   aside {
-      background-color: cyan;
-      font-size: 0.5rem;
+    background-color: cyan;
+    font-size: 0.5rem;
   }
 }

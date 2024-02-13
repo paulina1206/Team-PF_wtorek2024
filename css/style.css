@@ -194,6 +194,15 @@ article img {
 }
 
 aside {
+  h2{
+    font-size: 18px;
+  }
+  h4{
+    font-size: 12px;
+  }
+  p {
+    font-size: 14px;
+  }
   width: 30%;
   padding: 20px;
   background-color: rgba(104, 96, 219, 0.37);
@@ -237,6 +246,5 @@ footer p {
 
   aside {
       background-color: cyan;
-      font-size: 0.5rem;
   }
 }

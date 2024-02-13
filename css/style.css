@@ -230,21 +230,23 @@ aside {
 }
 
 footer p {
-	text-align: center;
-	background-color: rgba(165, 42, 42, 0.295);
-	padding: 50px;
-	margin: 0;
+  text-align: center;
+  background-color: rgba(70, 201, 70, 0.651);
+  padding: 50px;
+  margin: 0;
+  font-style: italic;
 }
 
 /* @media rules */
 @media screen and (min-width: 576px) {
   article {
-      font-size: 1rem;
-      font-size: bold;
-      background-color: green;
+    font-size: 1rem;
+    font-size: bold;
+    background-color: green;
   }
 
   aside {
-      background-color: cyan;
+    background-color: cyan;
+    font-size: 0.5rem;
   }
 }
